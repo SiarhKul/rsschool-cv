@@ -9,3 +9,18 @@
 **Phone**:+375 11 111 11 11
 
 **Email**:SiarhKul@gmail.com
+
+##### Teck Stack!
+-	HTML/CSS 
+-	SASS/SCSS
+-	JS 
+-	TypeScript
+-	React
+--Redux
+--Reselect
+--Redux-thunk
+--React-table
+-	Bootstrap
+-	Git     
+-	Firebase
+-	WebPack
