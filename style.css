@@ -1,0 +1,39 @@
+.container{
+  width: 80%;
+  margin: 0 auto ;
+
+}
+
+.photo-user{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.photo{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.info-list{
+list-style: none;
+}
+
+.heading-nameuser{
+  color: rgb(76, 76, 185);
+}
+
+.heding-contact{
+  color: rgb(76, 76, 185);
+}
+.item-name{
+  font-weight: bold;
+}
+.heding-languages{
+  color: rgb(76, 76, 185);
+}
+.stack-list{
+  list-style: ;
+}
