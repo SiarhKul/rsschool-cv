@@ -24,3 +24,19 @@
 -	Git     
 -	Firebase
 -	WebPack
+
+> ## Laguages
+-Russian(native)
+-English (A2/B1)
+
+2004-06-
+2009-06	Mechanics And Repairers
+	Belarusian State Agrarian Technical University
+(Belarus, Minsk)
+> ## Aducation	
+2020-02-2020-12 	**Front End IT STEP** Computer Academy
+> ## JS
+```
+var factorial = function fac(n) { return n < 2 ? 1 : n * fac(n - 1); };
+console.log(factorial(3));
+```
