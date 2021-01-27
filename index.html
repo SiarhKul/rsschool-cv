@@ -4,74 +4,348 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>rsschool-cv-html</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
-<section class=" container">
-  <div class="photo-user">
-    <img class="photo"
-      src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-      alt="photo">
-  </div>
-  <div class="info-user">
-    <h2 class="heading-nameuser">Sergey Kulagenko</h2>
-    <h4>Front end developer(Junior)</h4>
-    <hr>
-    <p>I am highly motivated and a responsible person who is full of energy and determination to achieve results. I
-      always
-      learn something new in order to broaden my horizons and to become >more intelligent. I am looking for a job where
-      I can
-      develop and improve my skills and implement the tasks set by the company.</p>
-    <hr>
-  </div>
-  <div class="user-info">
-    <h3 class="heding-contact">Contacts</h3>
-    <ul class="info-list">
-      <li class=" info-list__item">
-        <span class="item-name">City:</span>Gomel
-      </li>
-      <li class=" info-list__item">
-        <span class="item-name">Phone:</span>+375 111 11 11
-      </li>
-      <li class=" info-list__item">
-        <span class="item-name">Email:</span>SiarhKul@gmail.com
-      </li>
-    </ul>
-    <hr>
-  </div>
-  <div class="user-stack"></div>
-  <ul class="stack-list">
-    <li>HTML/CSS</li>
-    <li>SASS/SCSS</li>
-    <li>JS</li>
-    <li>TypeScript</li>
-    <li>React
-      <ul>
-        <li>Redux</li>
-        <li>Reselect</li>
-        <li>Redux-thunk</li>
-        <li>React-table</li>
-      </ul>
-    </li>
-    <li>Bootstrap</li>
-    <li>Git</li>
-    <li>Firebase</li>
-    <li>WebPack</li>
-  </ul>
-  <hr>
-  <div class="user-languages">
-    <h3 class="heding-languages">Contacts</h3>
-    <ul>
-      <li>Russin</li>
-      <li>English</li>
-    </ul>
-  </div>
 
-</section>
-
+<!-- main,section, abbr,figure,address,section -->
 
 <body>
+  <main class="section">
 
+    <div class="profile">
+
+      <div class=" person ">
+        <figure class="profile-photo">
+          <img class="photo" src='./img/me.jpg' alt="usephoto" />
+        </figure>
+        <a href="https://firebasestorage.googleapis.com/v0/b/resume-site-ce6ba.appspot.com/o/Resume.pdf?alt=media&token=b5fa5595-b8c2-42f5-861c-62b688555e9e"
+          class="profile-button" target="_blank" rel="noreferrer">
+          <i class="fas fa-cloud-download-alt"></i>
+          <span class="button-name">Download CV</span>
+        </a>
+      </div>
+
+      <section class="about-me">
+        <div class="profile-name">
+          <h1 class="name">
+            HI, I AM <span>D Doe</span>
+          </h1>
+          <h4 class="job">Front End Developer</h4>
+        </div>
+        <p class="me-description">
+          I am highly motivated and a responsible person who is full of energy
+          and determination to achieve results. I always learn something new in
+          order to broaden my horizons and to become more intelligent. I am
+          looking for a job where I can develop and improve my skills and
+          implement the tasks set by the company.
+        </p>
+
+        <ul class="profile-info">
+          <li class="info-item">
+            <span class="item-name">Birthday: </span>
+            <span class="item-value">01.01.2000 </span>
+          </li>
+          <li class="info-item">
+            <address class="info-addrss">
+              <span class="item-name">Address: </span>
+              <span class="item-value">Gomel </span>
+            </address>
+          </li>
+          <li class="info-item">
+            <address class="info-addrss">
+              <span class="item-name">Email: </span>
+              <span class="item-value">SiarhKul@gmail.com </span>
+            </address>
+          </li>
+          <li class="info-item">
+            <address class="info-addrss">
+              <span class="item-name">Phone: </span>
+              <span class="item-value">+375 44 111 00 </span>
+            </address>
+          </li>
+        </ul>
+
+        <div class="social-links">
+          <span class="links-header">Social Links</span>
+
+          <ul class="links-list">
+            <li class="links-item">
+              <a target="_blank" rel="noreferrer" href="#" class="links-name">
+                <i class="fab fa-vk"></i>
+              </a>
+            </li>
+            <li class="links-item">
+              <a target="_blank" rel="noreferrer" href="#" class="links-name">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="links-item">
+              <a target="_blank" rel="noreferrer" href="#" class="links-name">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="links-item">
+              <a target="_blank" rel="noreferrer" href="#" class="links-name">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <article>
+      <h2 class="heading">Skills</h2>
+      <div class="skills">
+
+        <div class="soft-skills">
+          <h3 class="header-skill">Soft Skills</h3>
+          <ul class="list-soft-skills">
+            <li class="soft-skill-item">
+              Analytical abilities allow me to find quality solutions to tasks and predict the result.
+            </li>
+            <li class="soft-skill-item">
+              Hard-working nature, persistence and determination always help me
+              achieve my goals.
+            </li>
+            <li class="soft-skill-item">
+              Ability to use time effectively lets me reach significant results
+              without spending too much time.
+            </li>
+            <li class="soft-skill-item">
+              Continuous development of my professional skills and being a quick
+              learner, make me flexible and ready for any projects.
+            </li>
+            <li class="soft-skill-item">
+              Working on team projects, I easily find common language with my
+              colleagues and successfully cooperate in a team.
+            </li>
+          </ul>
+        </div>
+        <div class="skill-box">
+          <div class="prof-skill">
+            <h3 class="header-skill"> Stack Tech</h3>
+            <div class="name-skill">
+              <span>"HTML/CSS"</span>
+              <div class="skill-bar">
+                <div style="width: 70%;" class="progress"> 70% </div>
+                <div style="width: 30%;" class="notprogress"> 30% </div>
+              </div>
+            </div>
+            <div class="name-skill">
+              <span>"SASS/SCSS"</span>
+              <div class="skill-bar">
+                <div style="width: 60%;" class="progress"> 60% </div>
+                <div style="width: 40%;" class="notprogress"> 40% </div>
+              </div>
+            </div>
+            <div class="name-skill">
+              <span>"JS"</span>
+              <div class="skill-bar">
+                <div style="width: 70%;" class="progress"> 70% </div>
+                <div style="width: 30%;" class="notprogress"> 30% </div>
+              </div>
+            </div>
+            <div class="name-skill">
+              <span>"React"</span>
+              <div class="skill-bar">
+                <div style="width: 70%;" class="progress"> 70% </div>
+                <div style="width: 30%;" class="notprogress"> 30% </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prof-skill">
+
+            <h3 class="header-skill">Languages</h3>
+
+            <div class="name-skill">
+              <span>Russian</span>
+              <div class="skill-bar">
+                <div style="width: 100%;" class="progress"> Native </div>
+                <div style="width: 0%;" class="notprogress"></div>
+              </div>
+            </div>
+            <div class="name-skill">
+              <span>English</span>
+              <div class="skill-bar">
+                <div style="width: 100%;" class="progress"> A2</div>
+                <div style="width: 0%;" class="notprogress"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prof-skill">
+            <h3 class="header-skill"> Add Skills</h3>
+
+            <div class="name-skill">
+              <i class="fas fa-check"></i>
+              <span class="addskillname">Touch typing(ru,eng)</span>
+            </div>
+            <div class="name-skill">
+              <i class="fas fa-check"></i>
+              <span class="addskillname">3D max</span>
+            </div>
+            <div class="name-skill">
+              <i class="fas fa-check"></i>
+              <span class="addskillname">Autodesk Invertor</span>
+            </div>
+            <div class="name-skill">
+              <i class="fas fa-check"></i>
+              <span class="addskillname">Advance Steel</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article>
+      <h2 class="heading">Experience</h2>
+      <div class="ex">
+        <i class="fas fa-briefcase"></i>
+        <div class="xp-cart">
+          <h5 class="xp-period">August 2011-Current</h5>
+          <h3 class="xp-position">Leading Process Engineer</h3>
+          <h4 class="xp-company">
+            <abbr class="abbr-company" title="Public Joint Stock Company">&quot;OJSC&quot;</abbr>
+            <span>Drilling company &quot;Delta&quot;</span>
+          </h4>
+          <div class="xp-description">
+            <ul>
+              <li>
+                Development of technological documentation for various processes
+                in the production of metal structures
+              </li>
+              <li>Design and modeling of 3d structures.</li>
+              <li>
+                Testing of metal structures by physical and non-destructive
+                methods.
+              </li>
+              <li>
+                Conclusion of contracts and execution of contractual conditions
+                prior to the performance of services under the contract.
+              </li>
+              <li>Training and retraining of personnel.</li>
+              <li>Certification of production</li>
+              <li>
+                Drawing up technical specifications for the manufacture of the
+                structure.
+              </li>
+              <li>Certification of production and equipment.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="xp-cart">
+          <h5 class="xp-period">Feb 2020-Dec 2020</h5>
+          <h3 class="xp-position">Front End Developer</h3>
+          <h4 class="xp-company">IT &quot;STEP&quot; Computer Academy</h4>
+          <div class="xp-description">
+            <span class="xp-note">
+              During the period of study, 4 training projects were done:
+            </span>
+            <ul>
+              <li>HTML / CSS &mdash; site layout.</li>
+              <li>JS (native) &mdash; SPA pizza constructor.</li>
+              <li>Angular &mdash; mini SPA business card.</li>
+              <li>
+                React &mdash; SPA &quot;Ogolovok&quot; , an application developed
+                for &quot;OJSC&quot; Drilling company &quot;Delta&quot; , which
+                automates the processes of collecting information about the
+                completed technological operations in the production of metal
+                structures.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article>
+      <h2 class="heading">Education</h2>
+      <div class="educations">
+        <div class="education-card">
+          <div class="education-year">Sep 2010 - Jun 2015</div>
+          <div class="education-body">
+            <div class="education-specialization">
+              <i class="far fa-sticky-note"></i>
+              <span class="specialization-name">
+                Repare and Service
+              </span>
+            </div>
+            <div class="education-shool">
+              <i class="fas fa-school"></i>
+              <span class="school-name">BSATU</span>
+            </div>
+          </div>
+        </div>
+        <div class="education-card">
+          <div class="education-year">Jan 20 - Dec 2020</div>
+          <div class="education-body">
+            <div class="education-specialization">
+              <i class="far fa-sticky-note"></i>
+              <span class="specialization-name">
+                Fron end developer
+              </span>
+            </div>
+            <div class="education-shool">
+              <i class="fas fa-school"></i>
+              <span class="school-name">IT Academy Stap</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article>
+      <h2 class="heading">Portfolio</h2>
+      <div class="portfolio">
+        <div class="portfolio-project">
+          <img class="img-responsive" src='./img/jumhost.png' alt="Layout" />
+          <div class="overlay">
+            <h2 class="name-project">JumHost</h2>
+            <a target="_blank" rel="noreferrer" class="info" href="https://joomhost-a63d9.web.app/">
+              link here
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-project">
+          <img class="img-responsive" src='./img/business_card.png' alt="Layout" />
+          <div class="overlay">
+            <h2 class="name-project">Business Card</h2>
+            <a target="_blank" rel="noreferrer" class="info" href="https://business-card-d6f6e.web.app/">
+              link here
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-project">
+          <img class="img-responsive" src='./img/constructor_pizza.png' alt="Layout" />
+          <div class="overlay">
+            <h2 class="name-project">Constructor Pizza</h2>
+            <a target="_blank" rel="noreferrer" class="info" href="https://constructor-pizza.web.app/">
+              link here
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-project">
+          <img class="img-responsive" src='./img/ogolovok.png' alt="Layout" />
+          <div class="overlay">
+            <h2 class="name-project">Ogolovok</h2>
+            <a target="_blank" rel="noreferrer" class="info" href="https://ogolovok-f976b.web.app/">
+              link here
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+
+  </main>
 </body>
 
 </html>
